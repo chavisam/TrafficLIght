@@ -1,5 +1,5 @@
 import React from "react";
-import { TrafficLight } from "./trafficLight.jsx";
+import { Content } from "./content.jsx";
 
 //include images into your bundle
 import rigoImage from "../../img/rigo-baby.jpg";
@@ -12,7 +12,7 @@ const Home = () => {
 			<p>
 				<img src={rigoImage} />
 			</p>
-			<TrafficLight />
+			<Content />
 		</div>
 	);
 };
