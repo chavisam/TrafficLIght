@@ -10,13 +10,14 @@ export const Content = () => {
 	});
 
 	let arr = ["danger", "warning", "success"];
-
+	// let gh = Object.keys(allLights).newArr;
+	// console.log(gh);
 	const newArr = arr.map((color, index) => (
 		<Light
 			key={index}
 			color={color}
 			obj={allLights}
-			theChangefunction={myColor => changeLight(myColor)}
+			theChangefunction={() => changeLight(color)}
 		/>
 	));
 

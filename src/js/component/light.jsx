@@ -12,7 +12,7 @@ export const Light = props => {
 					: "light bg-dark"
 			}
 			onClick={() => {
-				props.theChangefunction(props.color);
+				props.theChangefunction();
 			}}></div>
 	);
 };
